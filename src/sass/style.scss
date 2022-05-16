@@ -1,0 +1,11 @@
+body{
+    background-color: #e5e5e5;
+}
+
+.container{
+    width: 1680px;
+    margin: 0 auto;
+}
+
+@import './block/start';
+@import './block/company';

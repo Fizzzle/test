@@ -1,0 +1,23 @@
+.start{
+    padding: 120px 0;
+    &__title{
+        text-align: center;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 72px;
+    }
+    &__subtitle{
+        text-align: center;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 50px;
+    }
+    &__wrapper{
+        margin-top: 80px;
+        display: grid;
+        grid-template-columns: repeat(6, 173px);
+        column-gap: 84px;
+        justify-content: center;
+        align-items: center;
+    }
+}
