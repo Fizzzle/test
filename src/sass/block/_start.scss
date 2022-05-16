@@ -1,6 +1,10 @@
+section{
+    border: none;
+}
+
 .start{
-    padding: 120px 0;
     &__title{
+        margin-top: 0;
         text-align: center;
         font-weight: 400;
         font-size: 48px;

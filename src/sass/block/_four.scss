@@ -1,5 +1,10 @@
 .four{
+    padding-top: 40px;
+    .container{
+        padding: 0;
+    }
     &__wrapper{
+        padding-left: 40px;
         display: grid;
         grid-template-columns: 1007px 509px;
         justify-content: space-between;

@@ -1,21 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&family=Roboto:wght@300;500&display=swap');
 
-html{
-    padding: 80px;
-    background-color: #e5e5e5;
+html{    
     font-family: 'Montserrat', 'Roboto', sans-serif;
 }
 
 body{
-    background-color: #fff;
+    padding: 80px;
+    background-color: #e5e5e5;
 }
 section{
+    width: 100%;
     border-top: 40px solid #e5e5e5;
+}
+h2{
+    margin-top: 0;
 }
 
 .container{
-    width: 1680px;
+    padding: 120px 0;
     margin: 0 auto;
+    width: 1680px;
+    background-color: #fff;
 }
 
 @import './block/start';
@@ -23,3 +28,4 @@ section{
 @import './block/three';
 @import './block/four';
 @import './block/last';
+@import './block/media';
