@@ -1,0 +1,20 @@
+.three{
+    padding: 120px 0;
+    &__title{
+        text-align: center;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 50px;
+    }
+    &__icon{
+        margin-top: 40px;
+        text-align: center;
+    }
+    &__text{
+        margin-top: 16px;
+        text-align: center;        
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+    }
+}
